@@ -17,3 +17,8 @@ Thumbs.db
 # VS Code / IDE configs (optional)
 .vscode/
 .idea/
+
+# Ignore Optuna local databases and temporary outputs
+*.db
+*.db-journal
+optuna_trials_history.csv
