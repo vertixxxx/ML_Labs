@@ -22,3 +22,10 @@ Thumbs.db
 *.db
 *.db-journal
 optuna_trials_history.csv
+
+# Ignore large datasets and saved PyTorch model checkpoints
+data/flower_photos/
+*.pth
+*.pt
+L4/saved_models/
+L4/results/
